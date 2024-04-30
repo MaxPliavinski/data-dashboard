@@ -1,0 +1,21 @@
+.bottomRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+
+  @media screen and (min-width: 900px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.dataCard {
+  width: calc(100% - 0.1rem);
+  position: relative;
+  top: 1rem;
+  height: 100%;
+
+  p {
+    margin: 0;
+    padding: 0.5rem 1rem;
+  }
+}

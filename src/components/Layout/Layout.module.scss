@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: calc(100vh - 149px);
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  max-width: 85rem;
+
+  @media screen and (min-width: 1700px) {
+    max-width: 92rem;
+  }
+}
